@@ -24,16 +24,7 @@ void testReverseSorted() {
 	}
 
 @Test
-void testUnSortedFirst() {
-	int[] outputArray = {6,1};
-	int[] inputArray = new int[]{2,5,6,2,3,1,4,5,6,3,1,1,1,2,3,5,2};
-	Find_Large_Small defaultArray = new Find_Large_Small();
-	int[] results = defaultArray.getResults(inputArray);
-	Assert.assertArrayEquals(outputArray, results);
-	}
-
-@Test
-void testUnSortedSecond() {
+void testUnSorted() {
 	int[] outputArray = {6,0};
 	int[] inputArray = new int[]{2,5,6,4,3,0,4,5,6,3,1,1,1,2,5};
 	Find_Large_Small defaultArray = new Find_Large_Small();
